@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    width:1170px;
+    margin:auto;
+
+}
+header{
+    background-image:url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position:relative;
+}
+.nav-area{
+    float:left;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display:inline-block;
+}
+.nav-area li a{
+    color:rgb(231, 17, 17);
+    text-decoration:none;
+    padding:5px 20px;
+    font-family:poppins;
+    font-size:20px;
+}
+.nav-area li a:hover{
+    background: rgb(185, 94, 9);
+    color:rgb(204, 129, 31);
+    border-radius: 5px;
+}
+.logo img{
+    width:60px;
+    float:left;
+    height:auto;
+}
+.welcome-text{
+    position:absolute;
+    width:600px;
+    height:300px;
+    margin:10% 30%;
+    text-align:center;
+}
+.welcome-text h1{
+    text-align: center;
+    color:rgb(228, 17, 116);
+    text-transform:uppercase;
+    font-size:60px;
+}
+.carousel-inner > .item > img{
+  width:1080px;
+  height:400px;
+}
+
+.carousel{
+  width:1080px;
+  height:400px;
+}
+#requests {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+#requests td, #requests th {
+  border: 4px solid black;
+  padding: 8px;
+  color:black;
+}
+
+#requests tr:nth-child(even){background-color: #f2f2f2;}
+#requests tr:nth-child(odd){background-color: #f2f2f2;}
+
+
+
+#requests th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: red;
+  color: white;
+}
+
+
+#submit{
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 4px;
+  color: #fff;
+  
+  font-family: inherit;
+  font-size: 16px;
+  
+  width: 100%;
+}
+#submit:hover{
+  background-color: white;
+  color: black;
+}
